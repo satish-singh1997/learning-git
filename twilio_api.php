@@ -1,13 +1,13 @@
 <?php
 
-$id = "ACcb0867a04c2e6495238c9dd06fe4c7ad";
-$token = "851d549df7e76ee1080d18d61eda640d";
+$id = "**********************";
+$token = "***************************";
 //$url = "https://api.twilio.com/2010-04-01/Accounts/$id/SMS/Messages";
 $url = "https://api.twilio.com/2010-04-01/Accounts/$id/Messages.json";
 
-$from = "whatsapp:+918360879939  ";
+$from = "whatsapp:+91";
 //$to = "+".$_POST['action'];; // twilio trial verified number
-$to = "whatsapp:+918360879939"; // twilio trial verified number
+$to = "whatsapp:+91"; // twilio trial verified number
 $body = "Hi, I'm a test developer thanks!!";
 $data = array (
     'From' => $from,

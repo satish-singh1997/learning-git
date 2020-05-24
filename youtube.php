@@ -1,7 +1,7 @@
 <?php
 
-  $api_key = 'AIzaSyCaeOywuIFuYFWYxa9DmhX34dQpQgP34sM';
-  $video_url = 'https://www.youtube.com/watch?v=DbiOGYrX6DI';
+  $api_key = '**********************';
+  $video_url = 'https://www.youtube.com/watch?v=';
   
   function getYouTubeVideoID($url) {
     $queryString = parse_url($url, PHP_URL_QUERY);
